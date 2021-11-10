@@ -1,0 +1,7 @@
+{
+	"mode": "none",
+	"output": {
+		"clean": true
+	},
+	"target": "node"
+}

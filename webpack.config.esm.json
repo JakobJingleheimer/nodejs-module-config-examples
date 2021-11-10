@@ -1,0 +1,14 @@
+{
+	"experiments": {
+		"outputModule": true
+	},
+	"mode": "none",
+	"output": {
+		"chunkFilename": "[name].mjs",
+		"chunkFormat": "module",
+		"clean": true,
+		"filename": "[name].mjs",
+		"module": true
+	},
+	"target": "node"
+}
