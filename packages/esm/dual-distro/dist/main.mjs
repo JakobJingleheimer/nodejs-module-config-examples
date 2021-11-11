@@ -14,7 +14,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("assert");
 
 /***/ }),
 /* 3 */
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
@@ -51,18 +51,6 @@ function sum(a, b) { return a + b }
 /******/ }
 /******/ 
 /************************************************************************/
-/******/ /* webpack/runtime/compat get default export */
-/******/ (() => {
-/******/ 	// getDefaultExport function for compatibility with non-harmony modules
-/******/ 	__webpack_require__.n = (module) => {
-/******/ 		var getter = module && module.__esModule ?
-/******/ 			() => (module['default']) :
-/******/ 			() => (module);
-/******/ 		__webpack_require__.d(getter, { a: getter });
-/******/ 		return getter;
-/******/ 	};
-/******/ })();
-/******/ 
 /******/ /* webpack/runtime/define property getters */
 /******/ (() => {
 /******/ 	// define getter functions for harmony exports
@@ -97,23 +85,21 @@ var __webpack_exports__ = {};
 (() => {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var process__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
-/* harmony import */ var process__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(process__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var assert__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2);
-/* harmony import */ var assert__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(assert__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _sum_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3);
+/* harmony import */ var _sum_mjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3);
 
 
 
 
 
-const argv = (process__WEBPACK_IMPORTED_MODULE_0___default().argv);
+const argv = process__WEBPACK_IMPORTED_MODULE_0__.argv;
 const args = {
 	a: 4,
 	b: 8
 };
 
-assert__WEBPACK_IMPORTED_MODULE_1___default().equal(typeof _sum_js__WEBPACK_IMPORTED_MODULE_2__["default"], 'function');
-assert__WEBPACK_IMPORTED_MODULE_1___default().equal((0,_sum_js__WEBPACK_IMPORTED_MODULE_2__["default"])(args.a, args.b), 12);
+assert__WEBPACK_IMPORTED_MODULE_1__.equal(typeof _sum_mjs__WEBPACK_IMPORTED_MODULE_2__["default"], 'function');
+assert__WEBPACK_IMPORTED_MODULE_1__.equal((0,_sum_mjs__WEBPACK_IMPORTED_MODULE_2__["default"])(args.a, args.b), 12);
 
 for (
 	let i = 2,
@@ -134,7 +120,7 @@ console.log([
 	'and',
 	args.b,
 	'is',
-	(0,_sum_js__WEBPACK_IMPORTED_MODULE_2__["default"])(args.a, args.b)
+	(0,_sum_mjs__WEBPACK_IMPORTED_MODULE_2__["default"])(args.a, args.b)
 ].join(' '));
 
 })();
