@@ -2,7 +2,6 @@
   "name": "cjs-with-esm-distro",
   "version": "1.0.0",
   "description": "Example of a package with source-code using CJS and distribution code using ESM.",
-  "main": "./dist/main.mjs",
   "exports": {
     ".": "./dist/main.mjs",
     "./package.json": "./package.json"
