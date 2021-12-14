@@ -3,11 +3,18 @@
 		"outputModule": true
 	},
 	"mode": "none",
+	"optimization": {
+		"concatenateModules": true
+	},
 	"output": {
 		"chunkFilename": "[name].mjs",
 		"chunkFormat": "module",
 		"clean": true,
+		"iife": false,
 		"filename": "[name].mjs",
+		"library": {
+			"type": "module"
+		},
 		"module": true
 	},
 	"target": "node"

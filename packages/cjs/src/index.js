@@ -13,7 +13,7 @@ assert.equal(sum(args.a, args.b), 12);
 
 for (
 	let i = 2,
-		count = argv.length;
+	count = argv.length;
 	i < count;
 	i++
 ) {
@@ -24,11 +24,13 @@ for (
 	args[key] = val;
 }
 
-console.log([
-	'The sum of',
-	args.a,
-	'and',
-	args.b,
-	'is',
-	sum(args.a, args.b)
-].join(' '));
+module.exports.test = function test() {
+	console.log([
+		'The sum of',
+		args.a,
+		'and',
+		args.b,
+		'is',
+		sum(args.a, args.b)
+	].join(' '));
+};

@@ -1,7 +1,7 @@
 {
   "name": "cjs-with-esm-distro",
   "version": "1.0.0",
-  "description": "Example of a package with source-code using CJS and distribution code using ESM.",
+  "description": "Example of a package with CJS source-code that distributes ESM code.",
   "exports": {
     ".": "./dist/main.mjs",
     "./package.json": "./package.json"
@@ -19,7 +19,7 @@
   "author": "Jacob Smith",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^5.63.0",
-    "webpack-cli": "^4.9.1"
+    "webpack": "5.63.0",
+    "webpack-cli": "4.9.1"
   }
 }

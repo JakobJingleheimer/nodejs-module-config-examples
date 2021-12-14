@@ -1,7 +1,12 @@
 {
 	"mode": "none",
+	"optimization": {
+		"concatenateModules": true
+	},
 	"output": {
-		"clean": true
+		"clean": true,
+		"library": { "type": "commonjs" },
+		"iife": false
 	},
 	"target": "node"
 }

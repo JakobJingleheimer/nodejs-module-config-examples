@@ -25,11 +25,15 @@ for (
 	args[key] = val;
 }
 
-console.log([
-	'The sum of',
-	args.a,
-	'and',
-	args.b,
-	'is',
-	sum(args.a, args.b)
-].join(' '));
+function test() {
+	console.log([
+		'The sum of',
+		args.a,
+		'and',
+		args.b,
+		'is',
+		sum(args.a, args.b)
+	].join(' '));
+}
+
+export { test };

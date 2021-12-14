@@ -1,0 +1,30 @@
+{
+  "name": "esm-with-dual-distro",
+  "version": "1.0.0",
+  "description": "Example of a package with ESM source-code that distributes CJS & ESM code.",
+  "main": "./dist/main.js",
+  "exports": {
+    ".": {
+      "import": "./dist/main.mjs",
+      "require": "./dist/main.js",
+      "default": "./dist/main.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "webpack --config=./webpack.config-esm.js && webpack --config=./webpack.config-cjs.js --no-output-clean"
+  },
+  "keywords": [
+    "cjs",
+    "configuration",
+    "esm",
+    "modules",
+    "nodejs"
+  ],
+  "author": "Jacob Smith",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "5.63.0",
+    "webpack-cli": "4.9.1"
+  }
+}

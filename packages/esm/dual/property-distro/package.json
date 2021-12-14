@@ -1,0 +1,26 @@
+{
+  "name": "esm-with-dual-distro",
+  "version": "1.0.0",
+  "description": "Example of a package with ESM source-code that distributes CJS as ESM code.",
+  "type": "commonjs",
+  "main": "./dist/main.js",
+  "exports": {
+    ".": "./dist/main.js",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "rollup --file=./dist/main.js --format=cjs --plugin=commonjs ./src/index.mjs"
+  },
+  "keywords": [
+    "cjs",
+    "configuration",
+    "esm",
+    "modules",
+    "nodejs"
+  ],
+  "author": "Jacob Smith",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "21.0.1"
+  }
+}

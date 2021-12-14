@@ -1,1 +1,3 @@
-require('cjs-with-cjs-distro');
+const { test } = require('cjs-with-cjs-distro');
+
+test();
