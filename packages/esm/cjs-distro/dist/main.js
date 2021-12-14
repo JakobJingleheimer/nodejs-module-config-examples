@@ -85,6 +85,9 @@ var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
 __webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "test": () => (/* binding */ test)
+/* harmony export */ });
 /* harmony import */ var process__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 /* harmony import */ var assert__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2);
 /* harmony import */ var _sum_mjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3);
@@ -115,16 +118,23 @@ for (
 	args[key] = val;
 }
 
-console.log([
-	'The sum of',
-	args.a,
-	'and',
-	args.b,
-	'is',
-	(0,_sum_mjs__WEBPACK_IMPORTED_MODULE_2__["default"])(args.a, args.b)
-].join(' '));
+function test() {
+	console.log([
+		'The sum of',
+		args.a,
+		'and',
+		args.b,
+		'is',
+		(0,_sum_mjs__WEBPACK_IMPORTED_MODULE_2__["default"])(args.a, args.b)
+	].join(' '));
+}
+
+
 
 })();
 
+var __webpack_export_target__ = exports;
+for(var i in __webpack_exports__) __webpack_export_target__[i] = __webpack_exports__[i];
+if(__webpack_exports__.__esModule) Object.defineProperty(__webpack_export_target__, "__esModule", { value: true });
 /******/ })()
 ;

@@ -24,13 +24,18 @@ for (
 	args[key] = val;
 }
 
-module.exports.test = function test() {
-	console.log([
-		'The sum of',
-		args.a,
-		'and',
-		args.b,
-		'is',
-		sum(args.a, args.b)
-	].join(' '));
-};
+const e = {
+	test() {
+		console.log([
+			'The sum of',
+			args.a,
+			'and',
+			args.b,
+			'is',
+			sum(args.a, args.b)
+		].join(' '));
+	},
+}
+
+// assigning directly works fine, but assigning by reference breaks detection
+module.exports = e;

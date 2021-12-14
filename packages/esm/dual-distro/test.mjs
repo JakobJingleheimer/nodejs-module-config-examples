@@ -1,1 +1,3 @@
-import 'esm-with-dual-distro';
+import { test } from 'esm-with-dual-distro';
+
+test();

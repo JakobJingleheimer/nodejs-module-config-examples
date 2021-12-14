@@ -1,1 +1,3 @@
-require('esm-with-dual-distro');
+const { test } = require('esm-with-dual-distro');
+
+test();

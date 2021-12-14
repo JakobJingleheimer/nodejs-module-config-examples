@@ -1,1 +1,3 @@
-import 'cjs-with-esm-distro';
+import { test } from 'cjs-with-esm-distro';
+
+test();

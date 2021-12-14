@@ -1,7 +1,8 @@
 {
 	"mode": "none",
 	"output": {
-		"clean": true
+		"clean": true,
+		"library": { "type": "commonjs" }
 	},
 	"target": "node"
 }

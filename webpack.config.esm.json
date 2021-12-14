@@ -8,6 +8,9 @@
 		"chunkFormat": "module",
 		"clean": true,
 		"filename": "[name].mjs",
+		"library": {
+			"type": "module"
+		},
 		"module": true
 	},
 	"target": "node"

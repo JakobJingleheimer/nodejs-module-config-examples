@@ -1,1 +1,3 @@
-require('esm-with-cjs-distro');
+const { test } = require('esm-with-cjs-distro');
+
+test();
