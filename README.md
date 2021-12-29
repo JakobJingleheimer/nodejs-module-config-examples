@@ -1,6 +1,6 @@
 # About
 
-This repository contains example configurations for CJS ↔︎ ES modules. All CJS configurations should work in any version of Node.js (I confirmed in 12.22.0 and 17.1.0); all ESM configurations should work in Node.js 12.22.0+.
+This repository contains example configurations for CJS ↔︎ ES modules. All CJS configurations should work in any version of Node.js (I confirmed in 12.22.0 and 17.2.0); all ESM configurations should work in Node.js 12.22.0+.
 
 # Proof
 
