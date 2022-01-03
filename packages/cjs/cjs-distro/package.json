@@ -2,7 +2,8 @@
   "name": "cjs-with-cjs-distro",
   "version": "1.0.0",
   "description": "Example of a package with CJS source-code that distributes CJS code.",
-  "main": "./dist/main.js",
+  "type": "commonjs",
+  "engines": { "node": ">=12.22.7" },
   "exports": {
     ".": "./dist/main.js",
     "./package.json": "./package.json"

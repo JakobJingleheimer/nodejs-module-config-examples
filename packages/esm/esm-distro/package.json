@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Example of a package with ESM source-code that distributes ESM code.",
   "type": "module",
+  "engines": { "node": ">=12.22.7" },
   "exports": {
     ".": "./dist/main.js",
     "./package.json": "./package.json"

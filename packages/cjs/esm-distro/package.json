@@ -2,6 +2,8 @@
   "name": "cjs-with-esm-distro",
   "version": "1.0.0",
   "description": "Example of a package with CJS source-code that distributes ESM code.",
+  "type": "commonjs",
+  "engines": { "node": ">=12.22.7" },
   "exports": {
     ".": "./dist/main.mjs",
     "./package.json": "./package.json"
