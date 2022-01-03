@@ -2,14 +2,14 @@
   "name": "esm-with-dual-distro",
   "version": "1.0.0",
   "description": "Example of a package with ESM source-code that distributes CJS as ESM code.",
-  "type": "commonjs",
+  "type": "module",
   "engines": { "node": ">=12.22.7" },
   "exports": {
-    ".": "./dist/main.js",
+    ".": "./dist/main.cjs",
     "./package.json": "./package.json"
   },
   "scripts": {
-    "build": "rollup --file=./dist/main.js --format=cjs --plugin=commonjs ./src/index.mjs"
+    "build": "rollup --file=./dist/main.cjs --format=cjs --plugin=commonjs ./src/index.js"
   },
   "keywords": [
     "cjs",

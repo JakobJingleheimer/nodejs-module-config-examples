@@ -1,4 +1,5 @@
 {
+	"entry" : "./src/index.js",
 	"experiments": {
 		"outputModule": true
 	},
@@ -7,11 +8,9 @@
 		"concatenateModules": true
 	},
 	"output": {
-		"chunkFilename": "[name].mjs",
 		"chunkFormat": "module",
 		"clean": true,
 		"iife": false,
-		"filename": "[name].mjs",
 		"library": {
 			"type": "module"
 		},

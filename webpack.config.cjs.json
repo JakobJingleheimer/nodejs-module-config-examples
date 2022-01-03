@@ -1,4 +1,5 @@
 {
+	"entry" : "./src/index.js",
 	"mode": "none",
 	"optimization": {
 		"concatenateModules": true

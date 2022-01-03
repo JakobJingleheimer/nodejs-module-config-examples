@@ -1,7 +1,7 @@
 import process from 'process';
 import assert from 'assert';
 
-import sum from './sum.mjs';
+import sum from './sum.js';
 
 const argv = process.argv;
 const args = {

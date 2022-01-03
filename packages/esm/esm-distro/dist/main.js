@@ -45,10 +45,10 @@ __webpack_require__.d(__webpack_exports__, {
 const external_process_namespaceObject = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("process");
 ;// CONCATENATED MODULE: external "assert"
 const external_assert_namespaceObject = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("assert");
-;// CONCATENATED MODULE: ../src/sum.mjs
+;// CONCATENATED MODULE: ../src/sum.js
 function sum(a, b) { return a + b }
 
-;// CONCATENATED MODULE: ../src/index.mjs
+;// CONCATENATED MODULE: ../src/index.js
 
 
 

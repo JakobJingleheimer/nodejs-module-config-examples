@@ -1,4 +1,4 @@
-import { createRequire as __WEBPACK_EXTERNAL_createRequire } from "module";
+/******/ "use strict";
 /******/ // The require scope
 /******/ var __webpack_require__ = {};
 /******/ 
@@ -42,13 +42,13 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 ;// CONCATENATED MODULE: external "process"
-const external_process_namespaceObject = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("process");
+const external_process_namespaceObject = require("process");
 ;// CONCATENATED MODULE: external "assert"
-const external_assert_namespaceObject = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("assert");
-;// CONCATENATED MODULE: ../../src/sum.mjs
+const external_assert_namespaceObject = require("assert");
+;// CONCATENATED MODULE: ../../src/sum.js
 function sum(a, b) { return a + b }
 
-;// CONCATENATED MODULE: ../../src/index.mjs
+;// CONCATENATED MODULE: ../../src/index.js
 
 
 
@@ -89,5 +89,6 @@ function test() {
 
 
 
-var __webpack_exports__test = __webpack_exports__.test;
-export { __webpack_exports__test as test };
+var __webpack_export_target__ = exports;
+for(var i in __webpack_exports__) __webpack_export_target__[i] = __webpack_exports__[i];
+if(__webpack_exports__.__esModule) Object.defineProperty(__webpack_export_target__, "__esModule", { value: true });

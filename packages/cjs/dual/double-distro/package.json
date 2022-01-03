@@ -13,7 +13,7 @@
     "./package.json": "./package.json"
   },
   "scripts": {
-    "build": "webpack --config=./webpack.config-esm.js && webpack --config=./webpack.config-cjs.js --no-output-clean"
+    "build": "webpack --config=../../webpack.config-esm.cjs && webpack --config=../../../../webpack.config.cjs.json --no-output-clean"
   },
   "keywords": [
     "cjs",

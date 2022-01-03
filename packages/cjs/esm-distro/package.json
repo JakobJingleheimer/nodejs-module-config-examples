@@ -9,7 +9,7 @@
     "./package.json": "./package.json"
   },
   "scripts": {
-    "build": "webpack"
+    "build": "webpack --config=../webpack.config-esm.cjs"
   },
   "keywords": [
     "cjs",

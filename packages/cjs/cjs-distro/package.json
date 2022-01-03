@@ -9,7 +9,7 @@
     "./package.json": "./package.json"
   },
   "scripts": {
-    "build": "webpack --config=./webpack.config-cjs.js"
+    "build": "webpack --config=../../../webpack.config.cjs.json"
   },
   "keywords": [
     "cjs",

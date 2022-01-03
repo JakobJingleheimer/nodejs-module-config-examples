@@ -2,14 +2,14 @@
   "name": "esm-with-cjs-distro",
   "version": "1.0.0",
   "description": "Example of a package with ESM source-code that distributes CJS code.",
-  "type": "commonjs",
+  "type": "module",
   "engines": { "node": ">=12.22.7" },
   "exports": {
-    ".": "./dist/main.js",
+    ".": "./dist/main.cjs",
     "./package.json": "./package.json"
   },
   "scripts": {
-    "build": "webpack --config=./webpack.config-cjs.js"
+    "build": "webpack --config=../webpack.config-cjs.cjs"
   },
   "keywords": [
     "cjs",
